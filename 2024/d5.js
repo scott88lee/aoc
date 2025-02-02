@@ -33,7 +33,8 @@ function main(rules, pages) {
       total2 += parseInt(getMiddleElement(fixPage(page, rules)))
     }
   }
-  return total2
+  console.log(total2)
+  return total
 }
 
 function getMiddleElement(page) {
